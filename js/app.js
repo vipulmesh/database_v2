@@ -23,26 +23,26 @@
   let badgeUid = 0;
 
   const ICONS = {
-    'graduation-cap': icon('<path d="M12 3 2.5 8.2 12 13.4 21.5 8.2 12 3Z"/><path d="M6 10.6V15c0 2.2 2.7 4 6 4s6-1.8 6-4v-4.4"/>'),
-    exam: icon('<path d="M8 4h8l3 3v13H5V4h3Z"/><path d="M9 11h6M9 15h6M9 19h4"/>'),
-    'shopping-bag': icon('<path d="M6 8h12l-1 13H7L6 8Z"/><path d="M9 8a3 3 0 0 1 6 0"/>'),
-    'map-pin': icon('<path d="M12 21s6-5.3 6-11a6 6 0 0 0-12 0c0 5.7 6 11 6 11Z"/><circle cx="12" cy="10" r="2.5"/>'),
-    briefcase: icon('<path d="M4 8h16v11H4z"/><path d="M9 8V6h6v2"/><path d="M4 12h16"/>'),
-    factory: icon('<path d="M4 19V9l6 4V9l6 4V7h4v12H4Z"/><path d="M8 19v-3M12 19v-3M16 19v-3"/>'),
-    globe: icon('<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/>'),
-    stethoscope: icon('<path d="M6 5v6a6 6 0 0 0 12 0V5"/><path d="M18 10v3a4 4 0 0 1-8 0"/><circle cx="6" cy="4" r="1.5"/><circle cx="18" cy="4" r="1.5"/>'),
+    'graduation-cap': icon('<path d="M12 4 3.8 8.5 12 13l8.2-4.5L12 4Z"/><path d="M6.5 10.2V15c0 1.9 2.4 3.6 5.5 3.6s5.5-1.7 5.5-3.6v-4.8"/><path d="M20 9.5v4.2"/>'),
+    exam: icon('<path d="M7 5h10l2 2v12H5V5h2Z"/><path d="M8.5 10.5h7M8.5 14h5.5"/><path d="M16.5 5V8H19"/>'),
+    'shopping-bag': icon('<path d="M7 8h10l-1 12H8L7 8Z"/><path d="M9.5 8a2.5 2.5 0 0 1 5 0"/><path d="M10 12h4"/>'),
+    'map-pin': icon('<path d="M12 21s5-4.2 5-9a5 5 0 0 0-10 0c0 4.8 5 9 5 9Z"/><circle cx="12" cy="12" r="1.8"/>'),
+    briefcase: icon('<path d="M7 7h10a2 2 0 0 1 2 2v8H5V9a2 2 0 0 1 2-2Z"/><path d="M9 7V6a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1"/><path d="M5 12h14"/>'),
+    factory: icon('<path d="M4 19V9l5 3V9l5 3V8l6 3v8H4Z"/><path d="M9 19v-3M13 19v-3M17 19v-3"/>'),
+    globe: icon('<circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.8 3 2.8 14 0 17M12 3.5c-2.8 3-2.8 14 0 17"/>'),
+    stethoscope: icon('<path d="M7 6v5a5 5 0 0 0 10 0V6"/><path d="M17 11v3a4 4 0 0 1-8 0"/><circle cx="7" cy="5" r="1.4"/><circle cx="17" cy="5" r="1.4"/>'),
     home: icon('<path d="M4 11 12 4l8 7v9H4v-9Z"/><path d="M9 20v-6h6v6"/>'),
-    users: icon('<path d="M16 19v-1a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v1"/><circle cx="10" cy="8" r="3"/><path d="M20 19v-1a4 4 0 0 0-3-3.8"/><circle cx="16" cy="9" r="2.5"/>'),
-    target: icon('<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.5"/>'),
-    building: icon('<path d="M5 21V4h14v17"/><path d="M9 21v-4h6v4M8 8h1M8 12h1M8 16h1M11 8h1M11 12h1M11 16h1M14 8h1M14 12h1M14 16h1"/>'),
-    school: icon('<path d="M3 10 12 5l9 5-9 5-9-5Z"/><path d="M6 12v4c0 1.7 2.7 3 6 3s6-1.3 6-3v-4"/>'),
-    smartphone: icon('<rect x="8" y="3" width="8" height="18" rx="2"/><path d="M11 17h2"/>'),
-    banknote: icon('<rect x="4" y="6" width="16" height="12" rx="2"/><circle cx="12" cy="12" r="3"/><path d="M7 9h0M17 15h0"/>'),
-    signal: icon('<path d="M5 19v-2M9 19v-5M13 19v-8M17 19V6M21 19V3"/>'),
-    car: icon('<path d="M5 16h14l-1.2-5.1A2 2 0 0 0 16 9H8a2 2 0 0 0-1.8 1.2L5 16Z"/><circle cx="8.5" cy="16.5" r="1.5"/><circle cx="16.5" cy="16.5" r="1.5"/>'),
-    hotel: icon('<path d="M4 21V6h8a4 4 0 0 1 4 4v11M4 11h12M8 21v-6h5v6"/><path d="M18 12h2v9h-2z"/>'),
+    users: icon('<path d="M16 19v-1a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v1"/><circle cx="10" cy="8" r="3"/><path d="M20 19v-1a4 4 0 0 0-3-3.5"/><circle cx="16.5" cy="9" r="2.5"/>'),
+    target: icon('<path d="M12 5v3M12 16v3M5 12H8M16 12h3"/><circle cx="12" cy="12" r="7"/><circle cx="12" cy="12" r="3"/>'),
+    building: icon('<path d="M5 21V5h14v16"/><path d="M8 21v-4h3v4M13 21v-4h3v4"/><path d="M8 8h1M11 8h1M14 8h1M8 11h1M11 11h1M14 11h1M8 14h1M11 14h1M14 14h1"/>'),
+    school: icon('<path d="M3.5 10.5 12 6l8.5 4.5L12 15 3.5 10.5Z"/><path d="M6 12v4c0 1.7 2.7 3 6 3s6-1.3 6-3v-4"/>'),
+    smartphone: icon('<rect x="8" y="3.5" width="8" height="17" rx="2"/><path d="M11 17h2"/>'),
+    banknote: icon('<rect x="4" y="6" width="16" height="12" rx="2"/><circle cx="12" cy="12" r="2.8"/><path d="M7 9.5h0M17 14.5h0"/>'),
+    signal: icon('<path d="M6 19v-2M10 19v-5M14 19v-8M18 19V6"/><path d="M22 19V4"/>'),
+    car: icon('<path d="M5 16h14l-1.2-4.8A2 2 0 0 0 16 9H8a2 2 0 0 0-1.8 1.2L5 16Z"/><circle cx="8.5" cy="16.5" r="1.5"/><circle cx="16.5" cy="16.5" r="1.5"/><path d="M7.5 13h9"/>'),
+    hotel: icon('<path d="M5 21V6h7a4 4 0 0 1 4 4v11"/><path d="M5 11h11"/><path d="M9 21v-6h4v6"/><path d="M18 12h1.8v9H18z"/>'),
     plane: icon('<path d="M3 12 21 4l-7 8 7 8-18-8Z"/><path d="M3 12h8"/>'),
-    'layers-3': icon('<path d="M12 4 3 9l9 5 9-5-9-5Z"/><path d="M3 15l9 5 9-5"/><path d="M3 12l9 5 9-5"/>'),
+    'layers-3': icon('<path d="M12 4 4 8.5 12 13l8-4.5L12 4Z"/><path d="M4 12l8 4.5 8-4.5"/><path d="M4 16l8 4.5 8-4.5"/>'),
   };
 
   const dataPromise = loadData();
@@ -535,7 +535,7 @@
   }
 
   function renderContactSection() {
-    const email = state.data?.site?.email || 'sales@example.com';
+    const email = state.data?.site?.email || 'mgcgloble@gmail.com';
     return `
       <section id="contact" class="mx-auto max-w-7xl px-4 pb-12 sm:px-6 lg:px-8 lg:pb-16">
         <div class="grid gap-6 rounded-[28px] border border-slate-200 bg-white p-5 shadow-premium sm:p-6 lg:grid-cols-[1.15fr_0.85fr] lg:p-8">
@@ -959,17 +959,18 @@
       <svg viewBox="0 0 48 48" aria-hidden="true" class="${sizeClass} drop-shadow-sm">
         <defs>
           <linearGradient id="badge-${uid}" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#ffffff"/>
+            <stop offset="100%" stop-color="#f8fafc"/>
+          </linearGradient>
+          <linearGradient id="icon-${uid}" x1="0" y1="0" x2="1" y2="1">
             <stop offset="0%" stop-color="${base}"/>
             <stop offset="100%" stop-color="${accent}"/>
           </linearGradient>
-          <radialGradient id="glow-${uid}" cx="30%" cy="25%" r="75%">
-            <stop offset="0%" stop-color="rgba(255,255,255,0.5)"/>
-            <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
-          </radialGradient>
         </defs>
         <rect x="1.5" y="1.5" width="45" height="45" rx="16" fill="url(#badge-${uid})"/>
-        <circle cx="15" cy="13" r="11" fill="url(#glow-${uid})"/>
-        <g transform="translate(12 12)" stroke="white">
+        <circle cx="35" cy="12" r="7" fill="${accent}" opacity="0.14"/>
+        <circle cx="14" cy="35" r="8" fill="${base}" opacity="0.12"/>
+        <g transform="translate(12 12)" stroke="url(#icon-${uid})" fill="none">
           ${glyphSvg}
         </g>
       </svg>

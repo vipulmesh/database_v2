@@ -1,9 +1,9 @@
 {
   "site": {
-    "name": "Mgc database",
+    "name": "MGC Database",
     "shortName": "MGC",
     "whatsappNumber": "917776966619",
-    "email": "Mgcgloble@gmail.com",
+    "email": "mgcgloble@gmail.com",
     "description": "Premium, categorized databases for education, business, location, consumer, and niche outreach campaigns."
   },
   "categories": [
@@ -11,13 +11,13 @@
       "name": "Student Database",
       "slug": "student-database",
       "icon": "graduation-cap",
-      "description": "Verified student contacts for education marketing, admissions, and recruitment campaigns."
+      "description": "Verified student contacts for admissions, coaching, and recruitment campaigns."
     },
     {
-      "name": "Entrance Exam Database",
-      "slug": "entrance-exam-database",
-      "icon": "exam",
-      "description": "Aspirant leads for exam coaching, test prep, counseling, and student acquisition."
+      "name": "Location wise Database",
+      "slug": "location-database",
+      "icon": "map-pin",
+      "description": "Geographically segmented databases by state, district, city, PIN code, and ward."
     },
     {
       "name": "Consumer Database",
@@ -26,10 +26,10 @@
       "description": "Consumer audience segments for retail, lifestyle, and performance marketing."
     },
     {
-      "name": "Location Database",
-      "slug": "location-database",
-      "icon": "map-pin",
-      "description": "Geographically segmented databases by state, district, city, PIN code, and ward."
+      "name": "Hospitality Database",
+      "slug": "hospitality-database",
+      "icon": "hotel",
+      "description": "Hotels, resorts, restaurants, and venue leads for hospitality partnerships."
     },
     {
       "name": "Business Database",
@@ -38,16 +38,16 @@
       "description": "Business owner and decision-maker data for B2B outreach and sales prospecting."
     },
     {
-      "name": "Manufacturing Database",
-      "slug": "manufacturing-database",
-      "icon": "factory",
-      "description": "Industrial lead lists for manufacturers, plants, suppliers, and channel partners."
+      "name": "Employment Database",
+      "slug": "job-seekers-database",
+      "icon": "users",
+      "description": "Candidate leads for hiring, staffing, training, and workforce platforms."
     },
     {
-      "name": "Exporters & Importers Database",
-      "slug": "exporters-importers-database",
-      "icon": "globe",
-      "description": "International trade contacts for exporters, importers, and cross-border sales."
+      "name": "Professional Database",
+      "slug": "marketing-leads",
+      "icon": "target",
+      "description": "Professional audience segments for targeted outreach and service marketing."
     },
     {
       "name": "Healthcare Database",
@@ -62,34 +62,22 @@
       "description": "Property and housing market contacts for developers, agents, and financing teams."
     },
     {
-      "name": "Job Seekers Database",
-      "slug": "job-seekers-database",
-      "icon": "users",
-      "description": "Candidate leads for hiring, staffing, training, and workforce platforms."
-    },
-    {
-      "name": "Marketing Leads",
-      "slug": "marketing-leads",
-      "icon": "target",
-      "description": "High-intent audience segments for acquisition, remarketing, and performance growth."
-    },
-    {
-      "name": "College Database",
+      "name": "Education Institute Database",
       "slug": "college-database",
       "icon": "building",
-      "description": "College and institute listings for B2B outreach, education services, and vendors."
+      "description": "College and institute listings for education outreach and vendors."
     },
     {
-      "name": "School Database",
-      "slug": "school-database",
-      "icon": "school",
-      "description": "School-level contact data for academic services, products, and outreach programs."
+      "name": "Manufacturing Database",
+      "slug": "manufacturing-database",
+      "icon": "factory",
+      "description": "Industrial lead lists for manufacturers, plants, suppliers, and channel partners."
     },
     {
-      "name": "Digital Users Database",
-      "slug": "digital-users-database",
-      "icon": "smartphone",
-      "description": "Digital behavior-based audiences for apps, subscriptions, and online services."
+      "name": "Exporters & Importers Database",
+      "slug": "exporters-importers-database",
+      "icon": "globe",
+      "description": "International trade contacts for exporters, importers, and cross-border sales."
     },
     {
       "name": "Financial Database",
@@ -98,10 +86,10 @@
       "description": "Financial service audiences for lending, investment, and insurance campaigns."
     },
     {
-      "name": "Telecom Database",
-      "slug": "telecom-database",
-      "icon": "signal",
-      "description": "Telecom and broadband audience segments for connectivity offers and device campaigns."
+      "name": "Digital & Technology Database",
+      "slug": "digital-users-database",
+      "icon": "smartphone",
+      "description": "Digital behavior-based audiences for apps, subscriptions, and online services."
     },
     {
       "name": "Automobile Database",
@@ -110,22 +98,34 @@
       "description": "Vehicle owners, dealers, and service contacts for auto products and promotions."
     },
     {
-      "name": "Hospitality Database",
-      "slug": "hospitality-database",
-      "icon": "hotel",
-      "description": "Hotels, resorts, restaurants, and venue leads for hospitality partnerships."
+      "name": "Agriculture Database",
+      "slug": "school-database",
+      "icon": "school",
+      "description": "Agriculture and rural business contacts for farm inputs and agri services."
     },
     {
-      "name": "Travel Database",
+      "name": "Industrial Database",
       "slug": "travel-database",
       "icon": "plane",
-      "description": "Travel audience data for agencies, tours, visa services, and holiday offers."
+      "description": "Industrial and factory contacts for procurement, supply, and B2B sales."
     },
     {
-      "name": "Other Databases",
+      "name": "Government & Public Database",
       "slug": "other-databases",
       "icon": "layers-3",
-      "description": "Specialized niche databases for custom campaigns, research, and unique segments."
+      "description": "Government, public sector, and civic contacts for outreach and services."
+    },
+    {
+      "name": "Telecom & Utility Database",
+      "slug": "telecom-database",
+      "icon": "signal",
+      "description": "Telecom, broadband, and utility audience segments for service campaigns."
+    },
+    {
+      "name": "Entrance Exam Database",
+      "slug": "entrance-exam-database",
+      "icon": "exam",
+      "description": "Aspirant leads for exam coaching, test prep, counseling, and student acquisition."
     }
   ],
   "products": [
@@ -491,7 +491,7 @@
     },
     {
       "id": 31,
-      "category": "Location Database",
+      "category": "Location wise Database",
       "categorySlug": "location-database",
       "name": "India Database",
       "price": "₹2,260",
@@ -503,7 +503,7 @@
     },
     {
       "id": 32,
-      "category": "Location Database",
+      "category": "Location wise Database",
       "categorySlug": "location-database",
       "name": "State Wise Database",
       "price": "₹2,540",
@@ -515,7 +515,7 @@
     },
     {
       "id": 33,
-      "category": "Location Database",
+      "category": "Location wise Database",
       "categorySlug": "location-database",
       "name": "District Wise Database",
       "price": "₹2,810",
@@ -527,7 +527,7 @@
     },
     {
       "id": 34,
-      "category": "Location Database",
+      "category": "Location wise Database",
       "categorySlug": "location-database",
       "name": "City Wise Database",
       "price": "₹3,090",
@@ -539,7 +539,7 @@
     },
     {
       "id": 35,
-      "category": "Location Database",
+      "category": "Location wise Database",
       "categorySlug": "location-database",
       "name": "PIN Code Wise Database",
       "price": "₹3,360",
@@ -551,7 +551,7 @@
     },
     {
       "id": 36,
-      "category": "Location Database",
+      "category": "Location wise Database",
       "categorySlug": "location-database",
       "name": "Area Wise Database",
       "price": "₹3,640",
@@ -563,7 +563,7 @@
     },
     {
       "id": 37,
-      "category": "Location Database",
+      "category": "Location wise Database",
       "categorySlug": "location-database",
       "name": "Ward Wise Database",
       "price": "₹3,910",
@@ -911,7 +911,7 @@
     },
     {
       "id": 66,
-      "category": "Job Seekers Database",
+      "category": "Employment Database",
       "categorySlug": "job-seekers-database",
       "name": "Freshers Database",
       "price": "₹2,300",
@@ -923,7 +923,7 @@
     },
     {
       "id": 67,
-      "category": "Job Seekers Database",
+      "category": "Employment Database",
       "categorySlug": "job-seekers-database",
       "name": "Experienced Candidates Database",
       "price": "₹2,570",
@@ -935,7 +935,7 @@
     },
     {
       "id": 68,
-      "category": "Job Seekers Database",
+      "category": "Employment Database",
       "categorySlug": "job-seekers-database",
       "name": "IT Job Seekers Database",
       "price": "₹2,850",
@@ -947,7 +947,7 @@
     },
     {
       "id": 69,
-      "category": "Job Seekers Database",
+      "category": "Employment Database",
       "categorySlug": "job-seekers-database",
       "name": "BPO Job Seekers Database",
       "price": "₹3,120",
@@ -959,7 +959,7 @@
     },
     {
       "id": 70,
-      "category": "Job Seekers Database",
+      "category": "Employment Database",
       "categorySlug": "job-seekers-database",
       "name": "Sales Job Seekers Database",
       "price": "₹3,400",
@@ -971,7 +971,7 @@
     },
     {
       "id": 71,
-      "category": "Job Seekers Database",
+      "category": "Employment Database",
       "categorySlug": "job-seekers-database",
       "name": "Marketing Job Seekers Database",
       "price": "₹3,670",
@@ -983,7 +983,7 @@
     },
     {
       "id": 72,
-      "category": "Job Seekers Database",
+      "category": "Employment Database",
       "categorySlug": "job-seekers-database",
       "name": "Admin Job Seekers Database",
       "price": "₹3,950",
@@ -995,7 +995,7 @@
     },
     {
       "id": 73,
-      "category": "Job Seekers Database",
+      "category": "Employment Database",
       "categorySlug": "job-seekers-database",
       "name": "Finance Job Seekers Database",
       "price": "₹4,220",
@@ -1007,7 +1007,7 @@
     },
     {
       "id": 74,
-      "category": "Job Seekers Database",
+      "category": "Employment Database",
       "categorySlug": "job-seekers-database",
       "name": "Work From Home Job Seekers Database",
       "price": "₹4,500",
@@ -1019,7 +1019,7 @@
     },
     {
       "id": 75,
-      "category": "Marketing Leads",
+      "category": "Professional Database",
       "categorySlug": "marketing-leads",
       "name": "SME Leads Database",
       "price": "₹2,240",
@@ -1031,7 +1031,7 @@
     },
     {
       "id": 76,
-      "category": "Marketing Leads",
+      "category": "Professional Database",
       "categorySlug": "marketing-leads",
       "name": "Founders Leads Database",
       "price": "₹2,520",
@@ -1043,7 +1043,7 @@
     },
     {
       "id": 77,
-      "category": "Marketing Leads",
+      "category": "Professional Database",
       "categorySlug": "marketing-leads",
       "name": "Decision Makers Database",
       "price": "₹2,790",
@@ -1055,7 +1055,7 @@
     },
     {
       "id": 78,
-      "category": "Marketing Leads",
+      "category": "Professional Database",
       "categorySlug": "marketing-leads",
       "name": "Facebook Ads Leads Database",
       "price": "₹3,070",
@@ -1067,7 +1067,7 @@
     },
     {
       "id": 79,
-      "category": "Marketing Leads",
+      "category": "Professional Database",
       "categorySlug": "marketing-leads",
       "name": "Google Ads Leads Database",
       "price": "₹3,340",
@@ -1079,7 +1079,7 @@
     },
     {
       "id": 80,
-      "category": "Marketing Leads",
+      "category": "Professional Database",
       "categorySlug": "marketing-leads",
       "name": "CRM Leads Database",
       "price": "₹3,620",
@@ -1091,7 +1091,7 @@
     },
     {
       "id": 81,
-      "category": "Marketing Leads",
+      "category": "Professional Database",
       "categorySlug": "marketing-leads",
       "name": "Email Marketing Leads Database",
       "price": "₹3,890",
@@ -1103,7 +1103,7 @@
     },
     {
       "id": 82,
-      "category": "Marketing Leads",
+      "category": "Professional Database",
       "categorySlug": "marketing-leads",
       "name": "B2B Leads Database",
       "price": "₹4,170",
@@ -1115,7 +1115,7 @@
     },
     {
       "id": 83,
-      "category": "College Database",
+      "category": "Education Institute Database",
       "categorySlug": "college-database",
       "name": "Engineering Colleges Database",
       "price": "₹2,250",
@@ -1127,7 +1127,7 @@
     },
     {
       "id": 84,
-      "category": "College Database",
+      "category": "Education Institute Database",
       "categorySlug": "college-database",
       "name": "Medical Colleges Database",
       "price": "₹2,530",
@@ -1139,7 +1139,7 @@
     },
     {
       "id": 85,
-      "category": "College Database",
+      "category": "Education Institute Database",
       "categorySlug": "college-database",
       "name": "MBA Colleges Database",
       "price": "₹2,800",
@@ -1151,7 +1151,7 @@
     },
     {
       "id": 86,
-      "category": "College Database",
+      "category": "Education Institute Database",
       "categorySlug": "college-database",
       "name": "Law Colleges Database",
       "price": "₹3,080",
@@ -1163,7 +1163,7 @@
     },
     {
       "id": 87,
-      "category": "College Database",
+      "category": "Education Institute Database",
       "categorySlug": "college-database",
       "name": "Pharmacy Colleges Database",
       "price": "₹3,350",
@@ -1175,7 +1175,7 @@
     },
     {
       "id": 88,
-      "category": "College Database",
+      "category": "Education Institute Database",
       "categorySlug": "college-database",
       "name": "Arts & Science Colleges Database",
       "price": "₹3,630",
@@ -1187,7 +1187,7 @@
     },
     {
       "id": 89,
-      "category": "College Database",
+      "category": "Education Institute Database",
       "categorySlug": "college-database",
       "name": "Polytechnic Colleges Database",
       "price": "₹3,900",
@@ -1199,7 +1199,7 @@
     },
     {
       "id": 90,
-      "category": "College Database",
+      "category": "Education Institute Database",
       "categorySlug": "college-database",
       "name": "Private Colleges Database",
       "price": "₹4,180",
@@ -1211,7 +1211,7 @@
     },
     {
       "id": 91,
-      "category": "School Database",
+      "category": "Agriculture Database",
       "categorySlug": "school-database",
       "name": "CBSE Schools Database",
       "price": "₹2,240",
@@ -1223,7 +1223,7 @@
     },
     {
       "id": 92,
-      "category": "School Database",
+      "category": "Agriculture Database",
       "categorySlug": "school-database",
       "name": "ICSE Schools Database",
       "price": "₹2,520",
@@ -1235,7 +1235,7 @@
     },
     {
       "id": 93,
-      "category": "School Database",
+      "category": "Agriculture Database",
       "categorySlug": "school-database",
       "name": "State Board Schools Database",
       "price": "₹2,790",
@@ -1247,7 +1247,7 @@
     },
     {
       "id": 94,
-      "category": "School Database",
+      "category": "Agriculture Database",
       "categorySlug": "school-database",
       "name": "Primary Schools Database",
       "price": "₹3,070",
@@ -1259,7 +1259,7 @@
     },
     {
       "id": 95,
-      "category": "School Database",
+      "category": "Agriculture Database",
       "categorySlug": "school-database",
       "name": "Secondary Schools Database",
       "price": "₹3,340",
@@ -1271,7 +1271,7 @@
     },
     {
       "id": 96,
-      "category": "School Database",
+      "category": "Agriculture Database",
       "categorySlug": "school-database",
       "name": "Coaching Schools Database",
       "price": "₹3,620",
@@ -1283,7 +1283,7 @@
     },
     {
       "id": 97,
-      "category": "School Database",
+      "category": "Agriculture Database",
       "categorySlug": "school-database",
       "name": "Play Schools Database",
       "price": "₹3,890",
@@ -1295,7 +1295,7 @@
     },
     {
       "id": 98,
-      "category": "Digital Users Database",
+      "category": "Digital & Technology Database",
       "categorySlug": "digital-users-database",
       "name": "Smartphone Users Database",
       "price": "₹2,320",
@@ -1307,7 +1307,7 @@
     },
     {
       "id": 99,
-      "category": "Digital Users Database",
+      "category": "Digital & Technology Database",
       "categorySlug": "digital-users-database",
       "name": "Android Users Database",
       "price": "₹2,590",
@@ -1319,7 +1319,7 @@
     },
     {
       "id": 100,
-      "category": "Digital Users Database",
+      "category": "Digital & Technology Database",
       "categorySlug": "digital-users-database",
       "name": "iPhone Users Database",
       "price": "₹2,870",
@@ -1331,7 +1331,7 @@
     },
     {
       "id": 101,
-      "category": "Digital Users Database",
+      "category": "Digital & Technology Database",
       "categorySlug": "digital-users-database",
       "name": "Social Media Users Database",
       "price": "₹3,140",
@@ -1343,7 +1343,7 @@
     },
     {
       "id": 102,
-      "category": "Digital Users Database",
+      "category": "Digital & Technology Database",
       "categorySlug": "digital-users-database",
       "name": "OTT Users Database",
       "price": "₹3,420",
@@ -1355,7 +1355,7 @@
     },
     {
       "id": 103,
-      "category": "Digital Users Database",
+      "category": "Digital & Technology Database",
       "categorySlug": "digital-users-database",
       "name": "App Install Users Database",
       "price": "₹3,690",
@@ -1367,7 +1367,7 @@
     },
     {
       "id": 104,
-      "category": "Digital Users Database",
+      "category": "Digital & Technology Database",
       "categorySlug": "digital-users-database",
       "name": "Gaming Users Database",
       "price": "₹3,970",
@@ -1379,7 +1379,7 @@
     },
     {
       "id": 105,
-      "category": "Digital Users Database",
+      "category": "Digital & Technology Database",
       "categorySlug": "digital-users-database",
       "name": "UPI Users Database",
       "price": "₹4,240",
@@ -1475,7 +1475,7 @@
     },
     {
       "id": 113,
-      "category": "Telecom Database",
+      "category": "Telecom & Utility Database",
       "categorySlug": "telecom-database",
       "name": "Mobile Users Database",
       "price": "₹2,250",
@@ -1487,7 +1487,7 @@
     },
     {
       "id": 114,
-      "category": "Telecom Database",
+      "category": "Telecom & Utility Database",
       "categorySlug": "telecom-database",
       "name": "4G Users Database",
       "price": "₹2,530",
@@ -1499,7 +1499,7 @@
     },
     {
       "id": 115,
-      "category": "Telecom Database",
+      "category": "Telecom & Utility Database",
       "categorySlug": "telecom-database",
       "name": "5G Users Database",
       "price": "₹2,800",
@@ -1511,7 +1511,7 @@
     },
     {
       "id": 116,
-      "category": "Telecom Database",
+      "category": "Telecom & Utility Database",
       "categorySlug": "telecom-database",
       "name": "Broadband Users Database",
       "price": "₹3,080",
@@ -1523,7 +1523,7 @@
     },
     {
       "id": 117,
-      "category": "Telecom Database",
+      "category": "Telecom & Utility Database",
       "categorySlug": "telecom-database",
       "name": "Postpaid Users Database",
       "price": "₹3,350",
@@ -1535,7 +1535,7 @@
     },
     {
       "id": 118,
-      "category": "Telecom Database",
+      "category": "Telecom & Utility Database",
       "categorySlug": "telecom-database",
       "name": "Prepaid Users Database",
       "price": "₹3,630",
@@ -1547,7 +1547,7 @@
     },
     {
       "id": 119,
-      "category": "Telecom Database",
+      "category": "Telecom & Utility Database",
       "categorySlug": "telecom-database",
       "name": "DTH Customers Database",
       "price": "₹3,900",
@@ -1739,7 +1739,7 @@
     },
     {
       "id": 135,
-      "category": "Travel Database",
+      "category": "Industrial Database",
       "categorySlug": "travel-database",
       "name": "Frequent Flyers Database",
       "price": "₹2,240",
@@ -1751,7 +1751,7 @@
     },
     {
       "id": 136,
-      "category": "Travel Database",
+      "category": "Industrial Database",
       "categorySlug": "travel-database",
       "name": "Tour Operators Database",
       "price": "₹2,520",
@@ -1763,7 +1763,7 @@
     },
     {
       "id": 137,
-      "category": "Travel Database",
+      "category": "Industrial Database",
       "categorySlug": "travel-database",
       "name": "Travel Agencies Database",
       "price": "₹2,790",
@@ -1775,7 +1775,7 @@
     },
     {
       "id": 138,
-      "category": "Travel Database",
+      "category": "Industrial Database",
       "categorySlug": "travel-database",
       "name": "Bus Travelers Database",
       "price": "₹3,070",
@@ -1787,7 +1787,7 @@
     },
     {
       "id": 139,
-      "category": "Travel Database",
+      "category": "Industrial Database",
       "categorySlug": "travel-database",
       "name": "Train Travelers Database",
       "price": "₹3,340",
@@ -1799,7 +1799,7 @@
     },
     {
       "id": 140,
-      "category": "Travel Database",
+      "category": "Industrial Database",
       "categorySlug": "travel-database",
       "name": "Holiday Planners Database",
       "price": "₹3,620",
@@ -1811,7 +1811,7 @@
     },
     {
       "id": 141,
-      "category": "Travel Database",
+      "category": "Industrial Database",
       "categorySlug": "travel-database",
       "name": "Visa Applicants Database",
       "price": "₹3,890",
@@ -1823,7 +1823,7 @@
     },
     {
       "id": 142,
-      "category": "Other Databases",
+      "category": "Government & Public Database",
       "categorySlug": "other-databases",
       "name": "Event Organizers Database",
       "price": "₹2,240",
@@ -1835,7 +1835,7 @@
     },
     {
       "id": 143,
-      "category": "Other Databases",
+      "category": "Government & Public Database",
       "categorySlug": "other-databases",
       "name": "NGO Database",
       "price": "₹2,520",
@@ -1847,7 +1847,7 @@
     },
     {
       "id": 144,
-      "category": "Other Databases",
+      "category": "Government & Public Database",
       "categorySlug": "other-databases",
       "name": "Government Contractors Database",
       "price": "₹2,790",
@@ -1859,7 +1859,7 @@
     },
     {
       "id": 145,
-      "category": "Other Databases",
+      "category": "Government & Public Database",
       "categorySlug": "other-databases",
       "name": "Retail Chain Database",
       "price": "₹3,070",
@@ -1871,7 +1871,7 @@
     },
     {
       "id": 146,
-      "category": "Other Databases",
+      "category": "Government & Public Database",
       "categorySlug": "other-databases",
       "name": "IT Services Database",
       "price": "₹3,340",
@@ -1883,7 +1883,7 @@
     },
     {
       "id": 147,
-      "category": "Other Databases",
+      "category": "Government & Public Database",
       "categorySlug": "other-databases",
       "name": "Education Consultants Database",
       "price": "₹3,620",
@@ -1895,7 +1895,7 @@
     },
     {
       "id": 148,
-      "category": "Other Databases",
+      "category": "Government & Public Database",
       "categorySlug": "other-databases",
       "name": "Franchise Owners Database",
       "price": "₹3,890",
@@ -1907,7 +1907,7 @@
     },
     {
       "id": 149,
-      "category": "Other Databases",
+      "category": "Government & Public Database",
       "categorySlug": "other-databases",
       "name": "Warehouse Owners Database",
       "price": "₹4,170",
