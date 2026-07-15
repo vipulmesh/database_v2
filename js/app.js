@@ -393,7 +393,7 @@
           <p class="max-w-2xl text-sm leading-7 text-slate-600">Choose a category to open its product page. The homepage stays focused on the main collections instead of dumping every product at once.</p>
         </div>
         ${query ? renderSearchBanner(query) : ''}
-        <div class="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+        <div class="grid grid-cols-2 gap-3 sm:gap-4 xl:grid-cols-4">
           ${(categories.length ? categories : state.data.categories).map(renderCategoryCard).join('')}
         </div>
       </section>
@@ -403,14 +403,14 @@
   function renderCategoryCard(category) {
     const count = state.data.products.filter((product) => product.categorySlug === category.slug).length;
     return `
-      <a href="category.html?category=${encodeURIComponent(category.slug)}" class="group rounded-[18px] border border-slate-200 bg-white p-5 shadow-premium shadow-premium-hover transition duration-200 hover:border-emerald-200 focus-ring animate-fade-in">
+      <a href="category.html?category=${encodeURIComponent(category.slug)}" class="group flex h-full flex-col rounded-[18px] border border-slate-200 bg-white p-4 shadow-premium shadow-premium-hover transition duration-200 hover:border-emerald-200 focus-ring animate-fade-in sm:p-5">
         <div class="flex items-start justify-between gap-4">
-          <div class="flex h-14 w-14 items-center justify-center">${renderCategoryBadge(category.icon, category.slug, 'h-14 w-14')}</div>
-          <span class="rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-600">${count} products</span>
+          <div class="flex h-12 w-12 items-center justify-center sm:h-14 sm:w-14">${renderCategoryBadge(category.icon, category.slug, 'h-12 w-12 sm:h-14 sm:w-14')}</div>
+          <span class="rounded-full bg-slate-100 px-2.5 py-1 text-[11px] font-semibold text-slate-600 sm:px-3 sm:text-xs">${count} products</span>
         </div>
-        <h3 class="mt-5 text-lg font-semibold text-slate-950">${escapeHtml(category.name)}</h3>
-        <p class="mt-2 text-sm leading-7 text-slate-600 line-clamp-3">${escapeHtml(category.description)}</p>
-        <div class="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-emerald-700 transition group-hover:gap-3">
+        <h3 class="mt-4 text-base font-semibold text-slate-950 sm:mt-5 sm:text-lg">${escapeHtml(category.name)}</h3>
+        <p class="mt-2 text-xs leading-6 text-slate-600 line-clamp-3 sm:text-sm sm:leading-7">${escapeHtml(category.description)}</p>
+        <div class="mt-auto inline-flex items-center gap-2 pt-4 text-xs font-semibold text-emerald-700 transition group-hover:gap-3 sm:text-sm">
           Explore category <span aria-hidden="true">→</span>
         </div>
       </a>
@@ -597,7 +597,7 @@
             <h2 class="mt-2 text-xl font-bold tracking-tight text-slate-950 sm:text-2xl lg:text-3xl">Explore adjacent databases</h2>
           </div>
         </div>
-        <div class="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
+        <div class="grid grid-cols-2 gap-3 sm:grid-cols-2 xl:grid-cols-4">
           ${categories.map(renderMiniCategoryCard).join('')}
         </div>
       </section>
