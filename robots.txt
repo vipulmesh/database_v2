@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mgcdatabase.com/sitemap.xml
+Sitemap: https://www.mgcdatabase.com/sitemap.xml

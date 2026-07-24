@@ -5,7 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="View product details, pricing, and WhatsApp inquiry flow for premium databases.">
   <meta name="theme-color" content="#0f172a">
+  <meta name="robots" content="index,follow,max-image-preview:large">
   <title>MGC Database | Product Details</title>
+  <link rel="canonical" href="https://www.mgcdatabase.com/product.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.tailwindcss.com">
+  <link rel="preload" as="image" href="assets/images/logo_mgc_cropped.webp" type="image/webp">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="site.webmanifest">
+  <meta property="og:title" content="MGC Database | Product Details">
+  <meta property="og:description" content="View product details, pricing, and WhatsApp inquiry flow for premium databases.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.mgcdatabase.com/product.html">
+  <meta property="og:image" content="https://www.mgcdatabase.com/assets/images/logo_mgc_cropped.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="MGC Database | Product Details">
+  <meta name="twitter:description" content="View product details, pricing, and WhatsApp inquiry flow for premium databases.">
+  <meta name="twitter:image" content="https://www.mgcdatabase.com/assets/images/logo_mgc_cropped.webp">
+  <script type="application/ld+json">
+    {"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.mgcdatabase.com/#organization","name":"MGC Database","url":"https://www.mgcdatabase.com/","logo":"https://www.mgcdatabase.com/assets/images/logo_mgc_cropped.webp","email":"mgcgloble@gmail.com"},{"@type":"WebSite","@id":"https://www.mgcdatabase.com/#website","url":"https://www.mgcdatabase.com/","name":"MGC Database","publisher":{"@id":"https://www.mgcdatabase.com/#organization"},"potentialAction":{"@type":"SearchAction","target":"https://www.mgcdatabase.com/?q={search_term_string}","query-input":"required name=search_term_string"}}]}
+  </script>
   <script>
     tailwind.config = {
       theme: {
@@ -38,7 +59,10 @@
   <header id="siteHeader" class="sticky top-0 z-50 border-b border-slate-200/80 bg-white/95 backdrop-blur sticky-header">
     <div class="mx-auto flex max-w-7xl items-center gap-3 px-4 py-2.5 sm:px-6 lg:px-8">
       <a href="index.html" class="flex items-center rounded-[18px] focus-ring">
-        <img src="assets/images/logo_mgc_cropped.jpeg" alt="MGC Database logo" class="block h-10 w-[148px] rounded-[12px] object-contain sm:h-11 sm:w-[168px]" loading="eager" decoding="async">
+        <picture>
+          <source srcset="assets/images/logo_mgc_cropped.webp" type="image/webp">
+          <img src="assets/images/logo_mgc_cropped.jpeg" alt="MGC Database logo" class="block h-10 w-[148px] rounded-[12px] object-contain sm:h-11 sm:w-[168px]" width="1157" height="502" loading="eager" fetchpriority="high" decoding="async">
+        </picture>
       </a>
 
       <nav class="hidden md:flex items-center gap-6 lg:gap-8 ml-4">
@@ -50,21 +74,21 @@
 
       <div class="ml-auto hidden lg:flex w-full max-w-xl items-center">
         <label class="relative w-full">
-          <span class="pointer-events-none absolute inset-y-0 left-4 flex items-center text-slate-400">${''}</span>
+          <span class="pointer-events-none absolute inset-y-0 left-4 flex items-center text-slate-400">⌕</span>
           <input id="desktopSearch" type="search" placeholder="Search categories or products" class="input-glass focus-ring w-full rounded-full py-3 pl-11 pr-4 text-sm text-slate-900 placeholder:text-slate-400">
         </label>
       </div>
 
-      <button id="mobileSearchToggle" type="button" aria-expanded="false" class="ml-auto inline-flex h-10 w-10 items-center justify-center rounded-[18px] border border-slate-200 bg-white text-slate-700 shadow-sm lg:hidden focus-ring">
+      <button id="mobileSearchToggle" type="button" aria-label="Open search" aria-expanded="false" class="ml-auto inline-flex h-10 w-10 items-center justify-center rounded-[18px] border border-slate-200 bg-white text-slate-700 shadow-sm lg:hidden focus-ring">
         <span aria-hidden="true">⌕</span>
       </button>
-      <button id="mobileMenuToggle" type="button" aria-expanded="false" class="inline-flex h-10 w-10 items-center justify-center rounded-[18px] border border-slate-200 bg-white text-slate-700 shadow-sm md:hidden focus-ring">
+      <button id="mobileMenuToggle" type="button" aria-label="Open menu" aria-expanded="false" class="inline-flex h-10 w-10 items-center justify-center rounded-[18px] border border-slate-200 bg-white text-slate-700 shadow-sm md:hidden focus-ring">
         <span aria-hidden="true">☰</span>
       </button>
     </div>
 
     <div id="mobileSearchWrap" class="header-drop is-hidden border-t border-slate-200 bg-white px-4 py-4 md:hidden">
-      <input id="mobileSearch" type="search" placeholder="Search categories or products" class="input-glass focus-ring w-full rounded-full px-4 py-3 text-sm text-slate-900 placeholder:text-slate-400">
+          <input id="mobileSearch" type="search" aria-label="Search categories or products" placeholder="Search categories or products" class="input-glass focus-ring w-full rounded-full px-4 py-3 text-sm text-slate-900 placeholder:text-slate-400">
     </div>
     <div id="mobileMenu" class="header-drop is-hidden border-t border-slate-200 bg-white px-4 py-4 md:hidden">
       <div class="grid gap-2">
@@ -119,7 +143,7 @@
     </div>
   </footer>
 
-  <a id="whatsappFab" data-ripple href="https://wa.me/917776966619?text=Hello%2C%20I%20want%20to%20know%20more." target="_blank" rel="noreferrer" class="fixed bottom-5 right-5 z-50 inline-flex h-14 w-14 items-center justify-center rounded-full bg-emerald-500 text-sm font-semibold text-white shadow-2xl shadow-emerald-500/30 transition hover:bg-emerald-600 focus-ring">WA</a>
-  <button id="scrollTopBtn" data-ripple type="button" class="fixed bottom-5 left-5 z-50 inline-flex h-12 w-12 items-center justify-center rounded-full bg-slate-950 text-white shadow-2xl shadow-slate-950/20 transition opacity-0 pointer-events-none translate-y-2 focus-ring">↑</button>
+  <a id="whatsappFab" data-ripple href="https://wa.me/917776966619?text=Hello%2C%20I%20want%20to%20know%20more." target="_blank" rel="noreferrer" aria-label="Contact MGC Database on WhatsApp" class="fixed bottom-5 right-5 z-50 inline-flex h-14 w-14 items-center justify-center rounded-full bg-emerald-500 text-sm font-semibold text-white shadow-2xl shadow-emerald-500/30 transition hover:bg-emerald-600 focus-ring">WA</a>
+      <button id="scrollTopBtn" data-ripple type="button" aria-label="Scroll to top" class="fixed bottom-5 left-5 z-50 inline-flex h-12 w-12 items-center justify-center rounded-full bg-slate-950 text-white shadow-2xl shadow-slate-950/20 transition opacity-0 pointer-events-none translate-y-2 focus-ring">↑</button>
 </body>
 </html>
