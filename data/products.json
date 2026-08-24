@@ -10,7 +10,7 @@
     {
       "name": "Student Database",
       "slug": "student-database",
-      "icon": "graduation-cap",
+      "icon": "users",
       "description": "Verified student contacts for admissions, coaching, and recruitment campaigns."
     },
     {
@@ -100,19 +100,19 @@
     {
       "name": "Agriculture Database",
       "slug": "school-database",
-      "icon": "school",
+      "icon": "home",
       "description": "Agriculture and rural business contacts for farm inputs and agri services."
     },
     {
       "name": "Industrial Database",
       "slug": "travel-database",
-      "icon": "plane",
+      "icon": "factory",
       "description": "Industrial and factory contacts for procurement, supply, and B2B sales."
     },
     {
       "name": "Government & Public Database",
       "slug": "other-databases",
-      "icon": "layers-3",
+      "icon": "building",
       "description": "Government, public sector, and civic contacts for outreach and services."
     },
     {
@@ -137,7 +137,8 @@
       "price": "₹3,999",
       "oldPrice": "₹6,199",
       "description": "Latest verified 8th students database with clean segmentation, fast delivery, and campaign-ready data.",
-      "image": "student-database",
+      "image": "student-8th",
+      "icon": "student-record",
       "whatsappMessage": "Hello, I want to purchase the 8th Students Database.",
       "featured": true,
       "keywords": [
@@ -162,7 +163,8 @@
       "price": "₹3,999",
       "oldPrice": "₹6,199",
       "description": "Latest verified 9th students database with clean segmentation, fast delivery, and campaign-ready data.",
-      "image": "student-database",
+      "image": "student-9th",
+      "icon": "school",
       "whatsappMessage": "Hello, I want to purchase the 9th Students Database.",
       "featured": true,
       "keywords": [
@@ -187,7 +189,8 @@
       "price": "₹3,999",
       "oldPrice": "₹6,199",
       "description": "Latest verified 10th students database with clean segmentation, fast delivery, and campaign-ready data.",
-      "image": "student-database",
+      "image": "student-10th",
+      "icon": "exam",
       "whatsappMessage": "Hello, I want to purchase the 10th Students Database.",
       "featured": true,
       "keywords": [
@@ -212,7 +215,8 @@
       "price": "₹3,999",
       "oldPrice": "₹6,199",
       "description": "Latest verified 11th students database with clean segmentation, fast delivery, and campaign-ready data.",
-      "image": "student-database",
+      "image": "student-11th",
+      "icon": "building",
       "whatsappMessage": "Hello, I want to purchase the 11th Students Database.",
       "featured": false,
       "keywords": [
@@ -237,7 +241,8 @@
       "price": "₹3,999",
       "oldPrice": "₹6,199",
       "description": "Latest verified 12th students database with clean segmentation, fast delivery, and campaign-ready data.",
-      "image": "student-database",
+      "image": "student-12th",
+      "icon": "exam",
       "whatsappMessage": "Hello, I want to purchase the 12th Students Database.",
       "featured": false,
       "keywords": [
@@ -262,7 +267,8 @@
       "price": "₹3,999",
       "oldPrice": "₹6,199",
       "description": "Latest verified diploma students database with clean segmentation, fast delivery, and campaign-ready data.",
-      "image": "student-database",
+      "image": "student-diploma",
+      "icon": "school",
       "whatsappMessage": "Hello, I want to purchase the Diploma Students Database.",
       "featured": false,
       "keywords": [
@@ -287,7 +293,8 @@
       "price": "₹3,999",
       "oldPrice": "₹6,199",
       "description": "Latest verified engineering students database with clean segmentation, fast delivery, and campaign-ready data.",
-      "image": "student-database",
+      "image": "student-engineering",
+      "icon": "building",
       "whatsappMessage": "Hello, I want to purchase the Engineering Students Database.",
       "featured": false,
       "keywords": [
@@ -312,7 +319,8 @@
       "price": "₹3,999",
       "oldPrice": "₹6,199",
       "description": "Latest verified medical students database with clean segmentation, fast delivery, and campaign-ready data.",
-      "image": "student-database",
+      "image": "student-medical",
+      "icon": "stethoscope",
       "whatsappMessage": "Hello, I want to purchase the Medical Students Database.",
       "featured": false,
       "keywords": [
@@ -337,7 +345,8 @@
       "price": "₹3,999",
       "oldPrice": "₹6,199",
       "description": "Latest verified mba students database with clean segmentation, fast delivery, and campaign-ready data.",
-      "image": "student-database",
+      "image": "student-mba",
+      "icon": "briefcase",
       "whatsappMessage": "Hello, I want to purchase the MBA Students Database.",
       "featured": false,
       "keywords": [
@@ -362,7 +371,8 @@
       "price": "₹3,999",
       "oldPrice": "₹6,199",
       "description": "Latest verified law students database with clean segmentation, fast delivery, and campaign-ready data.",
-      "image": "student-database",
+      "image": "student-law",
+      "icon": "layers-3",
       "whatsappMessage": "Hello, I want to purchase the Law Students Database.",
       "featured": false,
       "keywords": [
@@ -387,7 +397,8 @@
       "price": "₹3,999",
       "oldPrice": "₹6,199",
       "description": "Latest verified pharmacy students database with clean segmentation, fast delivery, and campaign-ready data.",
-      "image": "student-database",
+      "image": "student-pharmacy",
+      "icon": "stethoscope",
       "whatsappMessage": "Hello, I want to purchase the Pharmacy Students Database.",
       "featured": false,
       "keywords": [
@@ -412,7 +423,8 @@
       "price": "₹3,999",
       "oldPrice": "₹6,199",
       "description": "Latest verified polytechnic students database with clean segmentation, fast delivery, and campaign-ready data.",
-      "image": "student-database",
+      "image": "student-polytechnic",
+      "icon": "building",
       "whatsappMessage": "Hello, I want to purchase the Polytechnic Students Database.",
       "featured": false,
       "keywords": [
